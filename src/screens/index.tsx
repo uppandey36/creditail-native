@@ -38,9 +38,9 @@ const Home: React.FC = ({navigation}) =>{
 
     const isButtonEnable = () => (
         name && 
-        /^[a-z0-9]+@[a-z]+\.[a-z]{2,3}$/.test(email) && 
+        /^[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]{2,3}$/.test(email) && 
         /^[2-9]{1}[0-9]{3}\s{1}[0-9]{4}\s{1}[0-9]{4}$/.test(aadhaar) && 
-        /[A-Z]{5}[0-9]{4}[A-Z]{1}$/.test(pan) &&
+        /[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$/.test(pan) &&
         /^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{2}$/.test(dob)
     )
 
@@ -102,9 +102,9 @@ const Home: React.FC = ({navigation}) =>{
                         key={'4'}
                         placeholder = 'ABCDE1234F'
                         isValidationRequired = {true}
-                        validated = {/[A-Z]{5}[0-9]{4}[A-Z]{1}$/.test(pan)}
+                        validated = {/[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$/.test(pan)}
                     />
-                    {/[A-Z]{5}[0-9]{4}[A-Z]{1}$/.test(pan) &&
+                    {/[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}$/.test(pan) &&
                     <>
                     <SizeBox height={verticalScale(24)} />
                     <Regular1120>{strings.dob}</Regular1120>

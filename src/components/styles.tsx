@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
         fontSize: FONT_SIZES[20],
         fontWeight: "700",
         lineHeight: FONT_SIZES[24],
-        fontStyle: 'normal'
+        fontStyle: 'normal',
     },
     Bold1420:{
         color: '#000',
@@ -67,7 +67,8 @@ export const styles = StyleSheet.create({
         justifyContent:'center',
         alignItems:'center',
         paddingVertical: verticalScale(10),
-        paddingHorizontal: verticalScale(24)
+        paddingHorizontal: verticalScale(24),
+        color: '#000'
     },
 
     validatedImageStyle: {
@@ -75,9 +76,9 @@ export const styles = StyleSheet.create({
         position: 'absolute',
         zIndex: 1,
         width: normalScale(24),
-        height: verticalScale(34),
+        height: normalScale(24),
         right:5,
-        bottom: 14,
+        bottom: 20,
     },
 
     otpIndividualBoxStyle: {
