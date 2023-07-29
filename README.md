@@ -8,29 +8,28 @@ Import the repository first from github.
 ## Step 2: Packages installation
 
 npm install <br />
-   or 
-
+   or <br />
 yarn
 
 ## Step 3: Pod installation (for ios only)
 
-npm podInstall
-   or
-yarn podInstall
-
+npm podInstall <br />
+   or <br />
+yarn podInstall <br />
+<br />
 Now the setup is complete, let's run the build
 
 ## To run build
 ### for ios:
-npm ios
-   or
+npm ios <br />
+   or <br />
 yarn ios
 ### for android
-npm android
-   or
+npm android <br />
+   or <br />
 yarn android
 
 ## To create android build
-npm build
-   or
+npm build <br />
+   or <br />
 yarn build
