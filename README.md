@@ -7,8 +7,10 @@ Import the repository first from github.
 
 ## Step 2: Packages installation
 
-npm install ##
-   or ##
+npm install 
+##
+   or 
+##
 yarn
 
 ## Step 3: Pod installation (for ios only)
