@@ -24,7 +24,7 @@ const OTPScreen: React.FC = ({navigation}) => {
                 <SemiBold1624>{strings.enterOtpPlease}</SemiBold1624>
                 <View style = {[styles.flex1]}>
                     <Pdf 
-                        source={{uri:"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"}} 
+                        source={{uri:"https://drive.google.com/file/d/1uvswVpD52fJ0fz03A93nbNPxGMFhAEbk/view"}} 
                         style = {styles.pdfContainerStyle} 
                         onLoadComplete={(numberOfPages,filePath)=>{
                             console.log(`number of pages: ${numberOfPages}`);
